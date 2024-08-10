@@ -1,0 +1,215 @@
+name: book_nest_life_care
+description: "A new Flutter project on book selling and stationery items."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+
+  device_info_plus: ^10.1.1
+
+  shared_preferences: ^2.2.2
+
+  flutter_localizations:
+    sdk: flutter
+
+  # Bloc architecture
+  flutter_bloc: ^8.1.4
+  bloc: ^8.1.3
+
+  # Routing navigation
+  go_router: ^13.2.0
+
+  # Prevent duplicate object being called.
+  equatable: ^2.0.5
+
+  # Get it
+  get_it: ^7.7.0
+
+  # Defines the annotations used by json_serializable
+  # to create code for JSON serialization and deserialization.
+  json_annotation: ^4.8.1
+
+  # Provides Dart Build System builders for handling JSON.
+  json_serializable: ^6.7.1
+
+  # About
+  about: ^2.1.3
+
+  # html
+  html: ^0.15.4
+
+  # avatar glow
+  avatar_glow: ^3.0.1
+
+  # Open fileX
+  open_filex: ^4.4.0
+
+  path_provider: ^2.1.2
+
+  percent_indicator: ^4.2.3
+
+  # networking library
+  dio: ^5.4.1
+  pretty_dio_logger: ^1.3.1
+
+  # check network connection
+  connectivity_plus: ^5.0.2
+
+  intl: ^0.19.0
+
+  # flutter webview
+  webview_flutter: ^4.7.0
+
+  # infinite scroll pagination
+  infinite_scroll_pagination: ^4.0.0
+
+  # shimmer
+  shimmer: ^3.0.0
+
+  # cached network image
+  cached_network_image: ^3.3.1
+
+  # flutter rating bar
+  flutter_rating_bar: ^4.0.1
+
+  # PDF Viewer
+#  syncfusion_flutter_pdfviewer: ^26.2.7
+
+  # Youtube player
+  youtube_player_flutter: ^9.0.1
+
+  # Video player
+  video_player: ^2.8.6
+
+  # logger
+  logger: ^2.1.0
+
+  # badge
+  badges: ^3.1.2
+
+  # svg image support
+  flutter_svg: ^2.0.9
+
+  # bottom navigation bar
+  persistent_bottom_nav_bar_v2: ^5.2.3
+
+  #Document picker
+  file_picker: ^8.0.0+1
+
+  #Image picker
+  image_picker: ^1.1.1
+
+
+  #Parse server
+  parse_server_sdk_flutter: ^8.0.0
+
+  #Graphql
+  graphql_flutter: ^5.1.2
+
+  carousel_slider:
+
+  #Permission Handler
+  permission_handler: ^11.3.0
+
+  #Month Year Picker
+  month_year_picker: ^0.4.0+1
+
+  #Calendar View
+  syncfusion_flutter_calendar: ^26.2.7
+
+  #Calendar View
+  calendar_date_picker2: ^1.1.5
+
+  #Hive DB
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  #To format lists
+  collection: ^1.18.0
+
+  #Multi selection from list
+  multi_dropdown: ^2.0.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_flavorizr: ^2.2.2
+
+  flutter_lints: ^3.0.1
+
+  # The build_runner package provides a
+  # concrete way of generating files using Dart code.
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.8
+  flutter_dotenv: ^5.1.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+    - assets/vectors/
+    - assets/.env
+
+  fonts:
+    - family: DMSans
+      fonts:
+        - asset: fonts/DMSans-Light.ttf
+          weight: 300
+        - asset: fonts/DMSans-Regular.ttf
+          weight: 400
+        - asset: fonts/DMSans-Medium.ttf
+          weight: 500
+        - asset: fonts/DMSans-Bold.ttf
+          weight: 600
+
+    - family: Lato
+      fonts:
+        - asset: fonts/Lato-Light.ttf
+          weight: 300
+        - asset: fonts/Lato-Regular.ttf
+          weight: 400
+        - asset: fonts/Lato-Medium.ttf
+          weight: 500
+        - asset: fonts/Lato-Bold.ttf
+          weight: 600
+
+    - family: SegoeUI
+      fonts:
+        - asset: fonts/SegoeUI-Regular.ttf
+          weight: 400
+        - asset: fonts/SegoeUI-Bold.ttf
+          weight: 500
+        - asset: fonts/SegoeUI-Bold.ttf
+          weight: 600
